@@ -36,4 +36,77 @@ Deverá ser exibido:
 • Quantidade de quartos ocupados
 • Quantidade de quartos livres
 
+================================================================================================================
+Almir Acacio
+Elisa Barbosa Kappaun
+Rafael Couto
+Rebeka cardoso 
+Rodrigo Lopes
+Segundo Trabalho - Grupo 07
 
+Desenvolva um algoritmo para controle de serviços de uma academia. Na academia
+deverão ser cadastradas matrículas e aulas particulares (personal). // 
+Menu do programa
+ACADEMIA - FORÇA TOTAL
+----------------------------------
+1 - Nova Matrícula
+2 - Aula Personal                                  //
+3 - Listar Armários
+4 - Faturamento
+5 - Sair do Programa
+----------------------------------
+Armários (Matrículas)
+A academia possui 30 armários para alunos matriculados. //
+Na matrícula deverão ser preenchidos os dados do aluno:
+• matricula                                                  //
+• nome                                                       //
+Deverá ser perguntado na matricula se o aluno deseja usar um armário.//
+Deverá ser criada uma função onde deverá ser verificado se um armário está disponível.//
+• Se estiver disponível → marcar como verdadeiro//
+e exibir a mensagem:
+Armário reservado com sucesso!
+• Caso contrário exibir:
+Armário ocupado!
+Para cada matrícula cadastrada deverão ser armazenados:
+• número de alunos matriculados
+• total geral (faturamento) com matrículas
+Valor da matrícula: R$ 200,00
+Aula Personal
+Deverão ser preenchidos os dados do aluno:
+• matricula
+• data
+• tipo de aula
+Fazer uma pesquisa no vetor ou matriz para verificar se a matricula do aluno está
+cadastrada
+Tipos de aula:
+• Musculação Personal
+• Funcional
+Regras de valor:
+• Se a aula for Musculação Personal - R$ 100,00
+• Funcional - R$ 80,00
+
+Para cada aula cadastrada deverá ser armazenado:
+• total geral de aulas
+• número de alunos atendidos
+Listar Armários
+Deverá ser exibida uma listagem de todos os armários, mostrando:
+• Armários ocupados
+• Armários livres
+
+Faturamento
+Esta opção deverá mostrar:
+• Número de matrículas realizadas
+• Número de aulas personal
+• Total faturado com matrículas
+• Total faturado com aulas
+• Total geral arrecadado
+Funções que devem ser criadas
+O programa deverá possuir as seguintes funções:
+• Função para preencher dados do aluno
+o nome
+o telefone
+o tipo de aula
+• Função para verificar armários ocupados
+• Função para verificar se o número do armário foi digitado corretamente
+• Função para listagem de armários livres ou ocupados
+• Caso necessário, poderão ser criadas outras funções auxiliares
